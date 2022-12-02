@@ -187,6 +187,7 @@ function editarEmpleado(){
         if(empleado.id === objAlumno.id){
             empleado.id = objAlumno.id;
             empleado.fecha = objAlumno.fecha;
+            empleado.horas = objAlumno.horas;
             empleado.tipo = objAlumno.tipo;
             empleado.actividad = objAlumno.actividad;
             empleado.observaciones = objAlumno.observaciones;
